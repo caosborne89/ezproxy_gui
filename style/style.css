@@ -1,0 +1,182 @@
+html, body {
+    height: 100%;
+}
+.breadcrumb {
+    background-color: white;
+    margin-left: 3em;
+    padding: 0px;
+}
+.breadcrumb-container {
+    width: 70%;
+    margin: .5em auto;
+}
+.lower-title-bar {
+    background-color: #BED9DE;
+    display: block;
+    overflow: auto;
+    height: 62px;
+}
+.lower-title {
+    color: #60646D;
+    font-weight: bold;
+    font-size: 1em;
+    float: left;
+    margin: 1.3em 0 1em 20em;
+}
+.search {
+    margin: 1em 1em 1em 0;
+}
+.search-container {
+    float: right;
+    margin: 1em 35em 1em 0;
+}
+.search-icon {
+    margin-left: .5em;
+    width: 20px;
+    height: 20px;
+}
+.main-container {
+    width: 40%;
+    margin: 4em auto;
+    font-family: sans-serif;
+
+}
+.directive-block {
+    background-color: #D4D4D4;
+    color: #1D2247;
+    margin: 1em 0;
+    padding: 1em;
+    border-left: solid #1D2247 .6em;
+    overflow: auto;
+}
+.additional-directive-block {
+    width: 40%;
+    background-color: #F6F7F2;
+    padding: .5em 1em;
+    margin: 1em .7em;
+}
+.directive-content {
+    margin: .02em 0;
+}
+.dtype {
+    font-weight: bold;
+}
+.add-rm-button {
+    border: solid #1D2247 .2em;
+    color: #1D2247;
+    float: right;
+    margin: .2em .7em;
+    font-size: .8em;
+    padding: .2em;
+    cursor: pointer;
+}
+.add-rm-button.add-directive {
+    float: left;
+    margin: .3em 0;
+    font-size: .95em;
+    padding: .1em .5em;
+    text-decoration: none;
+}
+.add-rm-button.add-directive.add-stanza {
+    float: none;
+    font-size: 1.2em;
+}
+.plus {
+    font-size: 1.4em;
+    margin-top: .2em;
+    margin-right: .2em;
+    padding: 0;
+    position: relative;
+    top: .065em;
+}
+button {
+    background-color: white;
+}
+input {
+    margin: .3em 0;
+}
+select {
+    margin: .3em 0;
+}
+
+/* All Stanzas Page */
+.stanza-list {
+    cursor: pointer;
+}
+.stanza-title {
+    margin: 0;
+}
+.dropdown-stanza-info {
+    display: none;
+    transition: 200s;
+}
+.stanza-details-open {
+    display: block;
+    margin-left: .8em;
+    overflow: visible;
+}
+
+.add-rm-button.add-directive.edit-remove-stanza {
+    float: right;
+    margin: 0px .5em;
+}
+.create-new-button {
+    color: #1D2247;
+    font-weight: bold;
+    font-size: 1.3em;
+    position: relative;
+    top: -1.4em;
+    left: -3em;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.create-new-button:hover {
+    text-decoration: none;
+}
+.sort-form {
+    display: inline-block;
+}
+.sort-container {
+    float: right;
+}
+.udarr {
+    padding-left: .6em;
+}
+
+/* Header & Footer */
+header {
+    background-color: #34495E;
+    width: 100%;
+    margin: 0;
+    color: white;
+    padding: 2em;
+    font-weight: bold;
+}
+.header-title {
+    margin: 0 0 0 5em;
+    font-size: 2em;
+}
+footer {
+    width: 100%;
+    background-color: #D4D4D4;
+    color: #1D2247;
+    margin: 1em 0 0 0;
+    padding: 1em;
+}
+.contributors-list {
+    margin: 0 auto 0 auto;
+    width: 600px;
+
+}
+h1.no_stanzas {
+    color: lightgray;
+}
+.removed-message {
+    background-color: red;
+}
+.removed-message-text {
+    color: white;
+    text-align: center;
+    padding: 4px;
+    font-weight: 600;
+}
